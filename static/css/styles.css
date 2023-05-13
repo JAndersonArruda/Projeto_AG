@@ -1,0 +1,69 @@
+body {
+    margin: 0px;    /*para retirar os 8 pixes de margem padrão*/
+}
+
+/* Navbar */
+.nav {
+    background-image: linear-gradient( to bottom, #19BF, #19BFBF);
+    margin: 1.5% 5% -8px 5%;    /*para retirar os 8 pixes de margem padrão*/
+}
+.nav-container {
+    display: grid;
+    grid-template-columns: auto 40%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.nav-container-itens {
+    padding: 20px 20px 20px 20px;
+}
+.nav-container-secundary {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    justify-items: center;
+    margin: auto 2px auto 4px;
+    padding: 0px;
+}
+/* nav div a:hover {
+    background-color: #f0ffff;
+    color: #19BF;
+    padding: 10px;
+    border-radius: 20px;
+} */
+nav div div ul li a:hover {
+    background-color: #f0ffff;
+    color: #19BF;
+    padding: 10px;
+    border-radius: 20px;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: #000000;
+}
+/* endNavbar */
+
+
+/* Main */
+.main {
+    margin: 8%;
+}
+/* endMain */
+
+
+/* Footer */
+.footer {
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    background-image: linear-gradient( to bottom, #19BF, #19BFBF);
+}
+.footer-container {
+    display: grid;
+    grid-template-columns: 30% 20% 20% 30%;
+}
+.footer-container-itens {
+    margin: 0% 7% 0% 7%;
+}
+/* endFooter */
