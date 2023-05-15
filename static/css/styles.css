@@ -35,13 +35,6 @@ nav div div ul li a:hover {
     padding: 10px;
     border-radius: 20px;
 }
-li {
-    list-style: none;
-}
-a {
-    text-decoration: none;
-    color: #000000;
-}
 /* endNavbar */
 
 
@@ -79,8 +72,58 @@ a {
     height: 25px;
     width: 25px;
 }
+.footer-dev-aling{
+    text-align: left;
+}
+.footer-container-dev {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.footer-container-image {
+    text-align: center;
+}
+.footer-dev-image {
+    display: inline-block;
+    width: 39px;
+    border-radius: 100px;
+}
+.footer-dev-type {
+    text-indent: 20px;
+}
+.footer-dev-name {
+    margin-bottom: -25px;
+    margin-top: 0px;
+}
+
 #link1, #link2 {
     text-align: center;
     padding-top: 10px;
 }
 /* endFooter */
+
+/* AtributsPadroes */
+.line-botton-black {
+    border-bottom: 1px solid #ffffff;
+    padding-bottom: 5px;
+}
+.title-line-botton {
+    border-bottom: 1px solid #ffffff;
+    padding-bottom: 5px;
+}
+.indente {
+    text-indent: 30px;
+}
+
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+p, h2, h4 {
+    color: #ffffff;
+}
+h4 {
+    margin-top: 28px;
+}
