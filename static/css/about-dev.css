@@ -5,3 +5,9 @@
     margin: auto 2px auto 4px;
     padding: 0px;
 }
+
+
+.footer-container-about-dev {
+    display: grid;
+    grid-template-columns: 30% 25% 25% 20%;
+}
