@@ -59,7 +59,7 @@ nav div div ul li a:hover {
     bottom: 0;
     width: 100%;
     background-image: linear-gradient( to top, #1E1B55, #01ADED);
-    padding-bottom: 10px;
+    padding-bottom: 15px;
 }
 .footer-container {
     display: grid;
@@ -80,6 +80,7 @@ nav div div ul li a:hover {
     display: inline-block;
     width: 35px;
     border-radius: 100px;
+    border: 2px double #FFFFFF;
 }
 .footer-dev-type {
     text-indent: 20px;
