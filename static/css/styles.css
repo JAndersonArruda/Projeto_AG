@@ -9,8 +9,8 @@ body {
     position: fixed;
     top: 0;
     width: 90%;
-    border-top: 13px solid #FFFFFF;
-    border-bottom: 13px solid #FFFFFF;
+    border-top: 10px solid #FFFFFF;
+    border-bottom: 10px solid #FFFFFF;
 }
 .nav-container {
     display: grid;
@@ -59,6 +59,7 @@ nav div div ul li a:hover {
     bottom: 0;
     width: 100%;
     background-image: linear-gradient( to top, #1E1B55, #01ADED);
+    padding-bottom: 10px;
 }
 .footer-container {
     display: grid;
