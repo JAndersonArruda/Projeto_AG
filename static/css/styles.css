@@ -5,7 +5,12 @@ body {
 /* Navbar */
 .nav {
     background-image: linear-gradient( to bottom, #1E1B55, #01ADED);
-    margin: 1.5% 5% -8px 5%;    /*para retirar os 8 pixes de margem padrão*/
+    margin: 1% 5% -8px 5%;    /*para retirar os 8 pixes de margem padrão*/
+    position: fixed;
+    top: 0;
+    width: 90%;
+    border-top: 13px solid #FFFFFF;
+    border-bottom: 13px solid #FFFFFF;
 }
 .nav-container {
     display: grid;
@@ -43,13 +48,15 @@ nav div div ul li a:hover {
 .main {
     margin: 8%;
 }
+.container-section {
+    background-color: #03ACEB;
+}
 /* endMain */
 
 
 /* Footer */
 .footer {
     bottom: 0;
-    position: fixed;
     width: 100%;
     background-image: linear-gradient( to top, #1E1B55, #01ADED);
 }
