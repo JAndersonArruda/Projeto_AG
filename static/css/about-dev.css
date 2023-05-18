@@ -6,21 +6,38 @@
     padding: 0px;
 }
 
-.container-section {
-    background-image: linear-gradient( #5049cd, #01ADED);
+.container-section-about {
     padding: 15px;
     margin: 30px 0px;
+    border: 15px double #01ADED;
     border-radius: 7px;
 }
+.container-section-about-secundary {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: safe;
+}
+.container-section-about-secundary-itens {
+    margin: 0px 7px;
+    /* height: 100%; */
+}
 .title-section {
-    color: #FFFFFF;
+    color: #000000;
     text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: oblique;
 }
 .image {
     width: 300px;
     border-radius: 50%;
-    border: 16px double #01ADED;
 }
+.bd {
+    border: 10px double #01ADED;
+}
+.r-1{
+    border-radius: 6px;
+}
+
 
 
 .footer-container-about-dev {

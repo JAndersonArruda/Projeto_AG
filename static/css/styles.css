@@ -1,5 +1,6 @@
 body {
     margin: 0px;    /*para retirar os 8 pixes de margem padrão*/
+    background-color: #FFFFFF;
 }
 
 /* Navbar */
@@ -108,6 +109,18 @@ li {
 }
 .indente {
     text-indent: 30px;
+}
+.pg-1 {
+    padding: 10px;
+}
+.pg-2 {
+    padding: 20px;
+}
+.pg-3 {
+    padding: 30px;
+}
+.black {
+    color: #000000;
 }
 
 li {
