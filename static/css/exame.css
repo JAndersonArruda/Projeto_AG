@@ -1,0 +1,7 @@
+.nav-container-secundary-exame {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-items: center;
+    margin: auto 2px auto 4px;
+    padding: 0px;
+}
