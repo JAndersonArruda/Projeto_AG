@@ -1,0 +1,7 @@
+.nav-container-suport {
+    display: grid;
+    grid-template-columns: 55% auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    align-items: center;
+}
