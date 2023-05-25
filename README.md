@@ -1,6 +1,6 @@
 # Project AG
 <p>
-  <i>O projeto foi desenvolvido durante a disciplina de linguagem de marcação prensente na grade curricular do Curso Superior Tecnologico (CST) em Análise e Desenvolmento de Sistemas, no <a href="https://www.ifpb.edu.br/cajazeiras">Intituto Federal de Ciências e Tecnólogia da Paraíba</a>, cidade de Cajazeiras.
+  <i>O projeto foi desenvolvido durante a disciplina de linguagem de marcação prensente na grade curricular do Curso Superior Tecnologico (CST) em Análise e Desenvolmento de Sistemas, no <a href="https://www.ifpb.edu.br" target="_blank">Intituto Federal de Ciências e Tecnólogia da Paraíba</a>, cidade de Cajazeiras.
   </i>
 </p>
 <br> 
