@@ -15,7 +15,7 @@ body {
 }
 .nav-container {
     display: grid;
-    grid-template-columns: 75% auto;
+    grid-template-columns: 50% auto 30%;
     padding-left: 20px;
     padding-right: 20px;
     align-items: center;
@@ -26,10 +26,11 @@ body {
 .nav-container-secundary {
     display: grid;
     grid-template-columns: auto auto auto;
-    justify-items: center;
+    text-align: end;
     margin: auto 2px auto 4px;
     padding: 0px;
 }
+
 nav div a:hover {
     background-color: #ffffff;
     color: #1E1B55;
@@ -148,3 +149,59 @@ h1, h2, h3, h4, h5, h6, p, li, a, i {
     font-family: 'Courier New', Courier, monospace;
     font-style: oblique;
 }
+
+@media (max-width: 1131px) {
+    .footer-container{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        padding-top: 10px;
+    }    
+}
+@media (max-width: 991px) {
+    .nav-container{
+        display: grid;
+        grid-template-columns: 20% 33% 45%;
+        padding-left: 20px;
+        padding-right: 20px;
+        align-items: center;
+    }
+}
+@media (max-width: 576px) {
+    .nav-container{
+        display: grid;
+        grid-template-columns: 20% 29% 51%;
+        padding-left: 20px;
+        padding-right: 20px;
+        align-items: center;
+    }
+    .footer-container{
+        display: block;
+        padding-top: 10px;
+    }
+}
+@media (max-width: 432px) {
+    .footer-dev-type {
+        text-indent: 20px;
+        margin-bottom: 0px;
+        font-size: 12px;
+    }
+    .footer-dev-name {
+        margin-bottom: -25px;
+        margin-top: 0px;
+        font-size: 14px;
+    }
+}
+@media (max-width: 375px) {
+    .footer-dev-type {
+        text-indent: 20px;
+        margin-bottom: 0px;
+        margin-top: 25px;
+        font-size: 10px;
+    }
+    .footer-dev-name {
+        margin-bottom: -25px;
+        margin-top: 0px;
+        font-size: 12px;
+    }
+}
+
