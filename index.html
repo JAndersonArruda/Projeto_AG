@@ -18,7 +18,7 @@
     <nav class="nav">
         <div class="nav-container">
             <div class="nav-container-itens">
-                <a href="./index.html" class="nav-container-itens">Home</a>
+                <a href="./index.html" id="page" class="nav-container-itens">Home</a>
             </div>
             <div class="nav-container-itens"></div>
             <div class="nav-container-itens">
@@ -54,11 +54,84 @@
         </section>
         <!-- endStart -->
         <!-- Adoption -->
-        <section id="nAdop" class="container-section">
+        <section class="container-section">
+            <div class="container-section-grid">
+                <div class="container-section-grid-secundary">
+                    <div>
+                        <h3 class="black">Por que adotar?</h3>
+                        <p class="black">A adoção de animais traz uma série de benefícios. Para os animais adotados, oferece uma segunda chance, 
+                            tirando-os de situações de abandono e maus-tratos, proporcionando um novo lar com amor e cuidado. Para as 
+                            pessoas que adotam, traz alegria, companheirismo e afeto incondicional. 
+                        </p>
+                        <p class="black">
+                            Os animais adotados podem reduzir o estresse e a solidão, promover atividade física e melhorar o bem-estar geral. 
+                            Além disso, a adoção de animais ajuda a conscientizar sobre o bem-estar animal, combatendo o comércio ilegal e 
+                            incentivando práticas éticas de criação. Ao adotar, estamos enviando uma mensagem de que todos os animais merecem um 
+                            lar amoroso. A adoção de animais faz a diferença na vida deles e contribui para uma sociedade mais compassiva e responsável.
+                        </p>
+                    </div>
+                    <!--botão de adotar-->
+                    <div>
+                        <a href="./adoption.html">
+                            <img src="" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="container-section-grid-secundary">
+                    <img src="data:image/jpeg;base64,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" 
+                        alt="Tres gatinhos brancos, jovens, peludinhos e fofinhos">
+                </div>
+            </div>
         </section>
         <!-- endAdoption -->
         <!-- Case -->
-        <section id="nCase" class="container-section">
+        <section class="container-section">
+            <div class="container-section-resume">
+                <h3 class="black">Antes e Depois</h3>
+                <p class="black">Estes são só alguns casos do nosso abrigo, são animais que conseguimos salvar e melhorar a qualidade de vida. Apesar das pouquíssimas doações, 
+                    seguimos firmes no nosso objetivo, pedimos a ajuda e contribuição de vocês, da forma que puderem, para que continuemos cuidando desses animais. 
+                    Colocamos mais detalhes na página <a href="./donetion.html" class="black">Doações</a>, agradecemos desde já pela atenção.
+                </p>
+            </div>
+            <div class="container-section-grid">
+                <div class="container-section-grid-secundary">
+                    <div>
+                        <p class="black">Aqui está o antes e depois desse gatinho que se recuperou da doença e do abandono. Há 1 mês essa gatinha estava muito mal, com 
+                            infecção e desnutrida, hoje ele vem ganhando peso e está recuperada da doença. Não deixe de ajudar nosso projeto, temos ajudado muitos animais.
+                        </p>
+                    </div>
+                    <div class="container-section-grid-secundary">
+                        <img src="" alt="">
+                    </div>
+                </div>
+                <div class="container-section-grid-secundary">
+                    <div>
+                        <p class="black">Esse é o Teodoro, um gatinho paraplégico, ele chegou no abrigo em situação de maus-tratos, hoje está bem melhor e recuperado.</p>
+                    </div>
+                    <div class="container-section-grid-secundary">
+                        <img src="" alt="">
+                    </div>
+                </div>
+
+                <div class="container-section-grid-secundary">
+                    <div>
+                        <p class="black">Mais um caso de superação: essa é uma gatinha tricolor que tinha uma sarna severa, depois do tratamento com sabonete e medicações 
+                            adequadas ela está muito melhor, parece até outra gatinha.
+                        </p>
+                    </div>
+                    <div class="container-section-grid-secundary">
+                        <img src="" alt="">
+                    </div>
+                </div>
+                <div class="container-section-grid-secundary">
+                    <div>
+                        <p class="black">O antes e depois dessa gatinha é incrível, ela conseguiu melhorar bastante e hoje está bem mais saudável.</p>
+                    </div>
+                    <div class="container-section-grid-secundary">
+                        <img src="" alt="">
+                    </div>
+                </div>
+            </div>
         </section>
         <!-- endCase -->
         <!-- Donation -->
