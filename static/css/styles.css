@@ -72,6 +72,10 @@ nav div div ul li a:hover {
     margin-left: 60px;
     margin-top: 20px;
 }
+.img-abertura {
+    height: 500px;
+    margin-left: 50px;
+}
 .container-section-grid-secundary img {
     height: 350px;
 }

@@ -24,3 +24,12 @@ document.getElementById("problemForm").addEventListener("submit", function(event
     // Limpa o formulário após o envio
     document.getElementById("problemForm").reset();
 });
+
+function submitRating() {
+    var rating = document.querySelector('input[name="rating"]:checked');
+    if (rating) {
+        alert("Avaliação enviada: " + rating.value + " estrelas");
+    } else {
+        alert("Por favor, selecione uma avaliação.");
+    }
+}
