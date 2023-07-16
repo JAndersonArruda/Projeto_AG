@@ -62,15 +62,23 @@ nav div div ul li a:hover {
     display: grid;
     grid-template-columns: auto auto;
 }
+.container-section-grid-case {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
 .container-section-grid-secundary {
     display: flex;
     align-items: center;
     margin-left: 60px;
+    margin-top: 20px;
 }
 .container-section-grid-secundary img {
     height: 350px;
 }
-
+.container-section-grid-secundary .image-before-afeter {
+    height: 250px;
+    margin-left: -30px;
+}
 #start {
     background-image: url();
     width: 100%;

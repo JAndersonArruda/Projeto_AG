@@ -10,9 +10,56 @@
     <link rel="stylesheet" href="../static/css/suport/suport.css">
     <link rel="stylesheet" href="../static/css/suport/problem.css">
     <link rel="shortcut icon" href="../static/img/logo-project.png" type="image/x-icon">
+    <script src="../static/js/scripts.js"></script>
     <script src="https://kit.fontawesome.com/acbf6c26fc.js" crossorigin="anonymous"></script>
     <!-- endlinks -->
     <title>Problemas</title>
+
+    <style>
+        body {
+          font-family: Arial, sans-serif;
+        }
+    
+        .container {
+          max-width: 400px;
+          margin: 0 auto;
+          padding: 20px;
+          border: 1px solid #ccc;
+          border-radius: 5px;
+        }
+    
+        .container h2 {
+          text-align: center;
+        }
+    
+        .container input,
+        .container textarea {
+          width: 100%;
+          padding: 10px;
+          margin-bottom: 10px;
+          border: 1px solid #ccc;
+          border-radius: 3px;
+        }
+    
+        .container textarea {
+          resize: vertical;
+          height: 100px;
+        }
+    
+        .container button {
+          width: 100%;
+          padding: 10px;
+          background-color: #4CAF50;
+          color: #fff;
+          border: none;
+          border-radius: 3px;
+          cursor: pointer;
+        }
+    
+        .container button:hover {
+          background-color: #45a049;
+        }
+      </style>
 </head>
 <body>
     <!-- Navbar -->
@@ -42,9 +89,15 @@
     <!-- endNavbar-->
     <!-- Main -->
     <main class="main">
-        <form action="">
-            <div></div>
-        </form>
+        <div class="container">
+            <h2>Relato de Problemas</h2>
+            <form id="problemForm">
+                <input type="text" id="name" placeholder="Seu nome" required>
+                <input type="email" id="email" placeholder="Seu e-mail" required>
+                <textarea id="description" placeholder="Descrição do problema" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
     </main>
     <!-- endMain -->
     <!-- Footer -->
