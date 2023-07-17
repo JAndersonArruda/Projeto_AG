@@ -55,6 +55,9 @@ nav div div ul li a:hover {
 .container-section {
     margin-top: 200px;
 }
+.container-section-case {
+    margin-top: 200px;
+}
 .container-section-resume {
     margin: 0px 65px;
 }
@@ -100,13 +103,16 @@ nav div div ul li a:hover {
     height: 500px;
     margin-left: 50px;
 }
-.container-section-grid-secundary img {
+.container-section-grid-secundary img, .container-section-grid-secundary-adot img {
     height: 350px;
 }
 .container-section-grid-secundary .image-before-afeter {
     height: 250px;
     margin-left: -30px;
     margin-right: 20px;
+}
+.margin-top {
+    margin-top: 60px;
 }
 .video {
     width: 300px;
@@ -251,6 +257,9 @@ h1, h2, h3, h4, h5, h6, p, li, a, i {
     .video {
         width: 200px;
         height: 200px;
+    }
+    .container-section-case {
+        margin-top: 30px;
     }
 }
 /* @media (min-width: 578px) {
