@@ -41,9 +41,45 @@
     border-radius: 6px;
 }
 
-
-
 .footer-container-about-dev {
     display: grid;
     grid-template-columns: 30% 25% 25% 20%;
+}
+
+@media (max-width: 991px) {
+    .container-section-about-secundary {
+        display:inline;
+        justify-content: center;
+    }
+    .bd {
+        margin-left: 15%;
+    }
+    .image {
+        margin-left: 22%;
+    }
+    .container-section-about {
+        margin-top: 200px;
+    }
+}
+@media (max-width: 576px) {
+    .nav-container-secundary-about-dev {
+        display: none;
+
+    }
+    .show {
+        display: block;
+    }
+    .image {
+        width: 100px;
+    }
+    .bd {
+        border: none;
+    }
+    .map {
+        margin-left: 0%;
+    }
+    .footer-container-about-dev {
+        display: inline;
+        margin-top: 20px;
+    }
 }

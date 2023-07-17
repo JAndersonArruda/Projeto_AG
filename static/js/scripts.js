@@ -7,6 +7,15 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
+document.addEventListener('DOMContentLoaded', function() {
+    var navContainer = document.querySelector('.nav-container');
+    var navSecondary = document.querySelector('.nav-container-secundary-about-dev');
+
+    navContainer.addEventListener('click', function() {
+        navSecondary.classList.toggle('show');
+    });
+});
+
 document.getElementById("problemForm").addEventListener("submit", function(event) {
     event.preventDefault();
 
