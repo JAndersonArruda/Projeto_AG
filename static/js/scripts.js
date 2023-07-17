@@ -33,3 +33,7 @@ function submitRating() {
         alert("Por favor, selecione uma avaliação.");
     }
 }
+
+document.querySelector('.menu-icon').addEventListener('click', function() {
+    document.querySelector('#menu-items').classList.toggle('show-menu');
+  });

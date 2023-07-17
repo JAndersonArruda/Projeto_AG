@@ -66,6 +66,10 @@ nav div div ul li a:hover {
     display: grid;
     grid-template-columns: auto auto;
 }
+.container-section-grid-adot {
+    display: grid;
+    grid-template-columns: auto auto;
+}
 .container-section-grid-before-afeter {
     display: grid;
     grid-template-columns: auto auto;
@@ -75,6 +79,12 @@ nav div div ul li a:hover {
     grid-template-columns: auto auto auto auto;
 }
 .container-section-grid-secundary {
+    display: flex;
+    align-items: center;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+.container-section-grid-secundary-adot {
     display: flex;
     align-items: center;
     margin-left: 60px;
@@ -97,6 +107,10 @@ nav div div ul li a:hover {
     height: 250px;
     margin-left: -30px;
     margin-right: 20px;
+}
+.video {
+    width: 300px;
+    height: 300px;
 }
 #start {
     background-image: url();
@@ -223,13 +237,38 @@ h1, h2, h3, h4, h5, h6, p, li, a, i {
         height: 250px;
         margin-left: 20%;
     }
+    .container-section-grid-secundary-adot img {
+        height: 250px;
+    }
     .container-section-grid-secundary .image-before-afeter {
         height: 180px;
         margin-left: -80px;
     }
+    .container-section-grid-case{
+        grid-template-columns: auto auto;
+        margin-bottom: 20px;
+    }
+    .video {
+        width: 200px;
+        height: 200px;
+    }
 }
+/* @media (min-width: 578px) {
+    .menu-icon {
+        display: none;
+    }
+} */
 @media (max-width: 576px) {
-    .nav-container{
+    /* #menu-items {
+        display: none;
+    }
+    .show-menu #menu-items {
+        display: block;
+    }
+    .menu-icon {
+        display: block;
+    } */
+    .nav-container {
         display: grid;
         grid-template-columns: 20% 29% 51%;
         padding-left: 20px;
@@ -245,6 +284,12 @@ h1, h2, h3, h4, h5, h6, p, li, a, i {
     }
     .container-section-grid-secundary img {
         margin-left: 0%;
+    }
+    .container-section-grid-secundary-adot img {
+        height: 150px;
+    }
+    .container-section-grid-secundary-adot {
+        margin-left: 0px;
     }
     .container-section-grid-secundary {
         margin-left: 50px;
@@ -263,6 +308,10 @@ h1, h2, h3, h4, h5, h6, p, li, a, i {
     }
     .img-abertura {
         margin-left: 12%;
+    }
+    .container-section-grid-case{
+        display: inline;
+        margin-top: 0px;
     }
     .footer-container{
         display: block;

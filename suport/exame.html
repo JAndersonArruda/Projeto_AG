@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="../static/css/suport/suport.css">
     <link rel="stylesheet" href="/static/css/suport/exame.css">
     <link rel="shortcut icon" href="../static/img/logo-project.png" type="image/x-icon">
-    <script src="./static/js/scripts.js"></script>
+    <script src="../static/js/scripts.js"></script>
     <script src="https://kit.fontawesome.com/acbf6c26fc.js" crossorigin="anonymous"></script>
     <!-- endlinks -->
     <title>Avaliação</title>
@@ -60,6 +60,11 @@
         .rating input:checked ~ label:hover ~ label {
             color: #ffcc00;
         }
+        @media (max-width: 991px) {
+            .container-section-resume {
+                margin-top: 150px;
+            }
+        }
     </style>
 </head>
 <body>
@@ -72,7 +77,7 @@
             <div class="nav-container-itens"></div>
             <div class="nav-container-itens">
                 <!-- LinksID -->
-                <ul class="nav-container-secundary">
+                <ul class="nav-container-secundary" id="menu-items">
                     <li>
                         <a href="../adoption.html">Adoção</a>
                     </li>
